@@ -8,7 +8,8 @@ const Banner = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundOrigin: "border-box"
+        backgroundOrigin: "border-box",
+        objectFit: 'cover'
       }}
     >
         <input className="w-[75%] py-4 px-2 rounded relative" type="text" name="" id="" placeholder="Search by category"/>
